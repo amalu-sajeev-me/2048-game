@@ -1,0 +1,20 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "At the end of this milestone you will learn\r  - Breaking down the problem\r  - Building web pages\r  - Creating efficient animations for web games\r  - Manipulating the document structure by using Document Object Model (DOM)\r  - Storing your application data in the client-side database\r  - Working with server and fetching data from it by manipulating it\r  - Process of developing a product",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/MS_Grid-game_Lupus_Tep_Online_Full-time_2021_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/MS_Grid-game_Lupus_Tep_Online_Full-time_2021_1/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/MS_Grid-game_Lupus_Tep_Online_Full-time_2021_1#readme"
+}
