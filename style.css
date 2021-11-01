@@ -1,9 +1,16 @@
-body{
-    background-color: rgba(245, 222, 179, 0.445);
-}
 *{
     box-sizing: border-box;
+    transition: background-color 0.09s ease;
+}
+body{
+    background-color: rgba(245, 222, 179, 0.445);
     user-select: none;
+}
+#body-wrapper{
+    width: calc(100% - 12px);
+    padding: 0px;
+    margin: 0;
+    /* overflow: hidden; */
 }
 #grid{
     position: relative;
@@ -11,8 +18,8 @@ body{
     display: flex;
     padding: 3px;
     flex-wrap: wrap;
-    width: 410px;
-    height: 410px;
+    width: 412px;
+    height: 412px;
     margin: auto;
     background-color: teal;
     border: 2px solid darkred;
@@ -21,10 +28,10 @@ body{
 }
 #grid div{
     flex-direction: row;
-    float: left;
     width: 100px;
-    height: 100px;
+    height:100px;
     background-color: rgb(78, 33, 75);
+    color: black;
     text-align: center;
     border: 6px solid teal;
     font-size: 2.5em;
@@ -93,4 +100,43 @@ body{
     line-height: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+tbody:first-child{ 
+    background-color: rgb(78, 33, 75) !important;
+    color: white;
+    font-weight: bolder;
+}
+tbody:nth-child(even){
+    background-color: rgba(0, 128, 0, 0.103);
+}
+tbody:nth-child(odd){
+    background-color: rgba(240, 128, 128, 0.151);
+}
+tr:hover{
+    background-color: rgb(78, 33, 75);
+    color: white;
+}
+td{
+    text-align: left;
+    padding: 2px;
+}
+#r{
+    font-size: large;
+    display: block;
+    padding: 6px;
+    margin: 12px auto;
+    border: 4px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#r:hover{
+    background-color: rgb(78, 33, 75);
+    color: white;
+    box-shadow: 1px 3px 6px rgba(128, 128, 128, 0.5);
+    transform: scale(1.1);
 }
